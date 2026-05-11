@@ -170,7 +170,7 @@ Node merge(Node a,Node b){
 
     return Node(a.mx,a.cnt+b.cnt);
 }
-leaf:Node(a[i],1)
+leaf:Node(a[tl],1),Node(val,1)
 
 //Minimum with index
 struct Node{
@@ -190,4 +190,4 @@ Node merge(Node a,Node b){
     return b;
 
 }
-leaf:Node(a[i], i)
+leaf:Node(a[tl], tl),Node(val,tl)
